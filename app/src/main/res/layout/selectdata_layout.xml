@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="tvID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvdialogID"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/Proname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/blank"
+                android:ems="10"
+                android:id="@+id/edtdialogProname"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/tvPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/blank"
+                android:ems="10"
+                android:id="@+id/edtdialogPrice"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/tvStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/blank"
+                android:ems="10"
+                android:id="@+id/edtdialogStock"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+            android:text="@string/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndialogEdit" />
+
+        <Button
+            android:text="@string/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndialogDelete" />
+
+        <Button
+            android:text="@string/CLOSE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndialogClose" />
+    </LinearLayout>
+</LinearLayout>

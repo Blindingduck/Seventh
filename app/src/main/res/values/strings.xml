@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="blank"></string>
+    <string name="tvProname">PRODUCTNAME</string>
+    <string name="tvPrice">PRICE</string>
+    <string name="tvStock">STOCK</string>
+    <string name="btnSave">บันทึก</string>
+    <string name="btnSearch">ค้นหา</string>
+    <string name="btnPractice">แบบฝึกหัด</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="id">ID</string>
+    <string name="Proname">PRODUCT NAME</string>
+    <string name="thProname">ชื่อสินค้า</string>
+    <string name="thPrice">ราคา</string>
+    <string name="thBetween">ระหว่าง</string>
+    <string name="thCondition">เงื่อนไข</string>
+    <string name="thSort">เรียงข้อมูล</string>
+    <string name="thSearch">ค้นหา</string>
+    <string name="thTo">ถึง</string>
+    <string name="thFounddata">พบข้อมูล</string>
+    <string name="thList">รายงาน</string>
+    <string name="No">No.</string>
+    <string name="pn">ProductName</string>
+    <string name="prn">Price</string>
+    <string name="stk">Stock</string>
+    <string name="sale">Sale</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="btnview">SALES_PRODUCT</string>
+    <string name="saleamount">Sales Amount</string>
+    <string-array name="spProname">
+        <item>เท่ากับ</item>
+        <item>ขึ้นต้นด้วย</item>
+        <item>ลงท้ายด้วย</item>
+        <item>มีคำว่า</item>
+        <item>ไม่มีคำว่า</item>
+    </string-array>
+    <string-array name="spPrice">
+        <item>ระหว่าง</item>
+        <item>เท่ากับ</item>
+        <item>มากกว่า</item>
+        <item>มากกว่าหรือเท่ากับ</item>
+        <item>น้อยกว่า</item>
+        <item>น้อยกว่าหรือเท่ากับ</item>
+        <item>ไม่เท่ากับ</item>
+    </string-array>
+    <string-array name="spCondition">
+        <item>AND</item>
+        <item>OR</item>
+    </string-array>
+    <string-array name="spSortdata">
+        <item>รหัสสินค้า</item>
+        <item>ชื่อสินค้า</item>
+        <item>ราคา</item>
+        <item>Stock</item>
+    </string-array>
+    <string-array name="spSorttype">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+</resources>
